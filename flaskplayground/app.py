@@ -4,7 +4,7 @@ from werkzeug.exceptions import abort
 import os
 import json
 
-with open('flaskplayground/secrets.json') as f:
+with open('secrets.json') as f:
     secrets = json.load(f)
 
 
